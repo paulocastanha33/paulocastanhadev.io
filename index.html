@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Paulo Castanha</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Barra de navegação -->
+    <nav style="background-color: rgba( 74, 74, 74, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid; ">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+        </ul>
+    </nav>
+
+    <!-- Seção Home -->
+    <section id="home" style="background-color: #384A5F; color: white;">
+        <header>
+            <h2 style="background-color: #3C5C80;"><code>Bem-vindo à Minha Página</code></h2>
+        </header>
+        <br><br> <br><br>
+        <div class="card">
+          
+            <p><code>
+                Me chamo Paulo A.V Castanha, sou desenvolvedor de software com experiência em desenvolvimento web e automações. 
+                Utilizo algumas linguagens como Python, HTML, CSS, Javascript, PHP, C#, Java. 
+               
+            </code>
+            </p>
+        
+            <!-- Imagens de Tecnologias -->
+            <div class="tech-images">
+                <marquee behavior="left" direction="">
+                <img src="assets/images/python.png" alt="Python">
+                <img src="assets/images/javascript.png" alt="JavaScript">
+                <img src="assets/images/css.png" alt="CSS">
+                <img src="assets/images/php.png" alt="PHP">
+                <img src="assets/images/mysql.png" alt="MySQL">
+                <img src="assets/images/java.png" alt="Java">
+            </marquee>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" style="background-color:#384A5F">
+     
+        <div class="container">
+            <div class="about-me">
+                <h2 class="section-title" >Sobre Mim</h2>
+                <p class="section-text" style="text-align: justify; color: white;">
+                    "Sou desenvolvedor de software com experiência em criação de aplicações personalizadas,
+                    automações em Python e web design. Minha paixão é transformar ideias em soluções digitais eficientes,
+                    com foco em usabilidade, desempenho e inovação. Busco sempre aprimorar minhas habilidades e criar
+                    projetos que unam tecnologia e design para proporcionar a melhor experiência ao usuário."
+                   
+                </p>
+               
+            </div>
+            <div class="about-me">
+                <center><img src="assets/images/paulo.jpg" alt="Profile pic"></center>
+            </div>
+        
+            <div class="experiences">
+                <h2 class="section-title">Minhas Experiências</h2>
+                <p class="section-text" style="text-align: justify; color: white;">
+                    <strong>Python:</strong> Experiência em desenvolvimento de automações, aplicativos e sistemas web, incluindo manipulação de dados, <strong>APIs</strong> e frameworks como <strong>Django</strong> e <strong>Flask</strong>. 
+                    <strong>CSS:</strong> Capacidade de estilizar interfaces web, criando designs responsivos e modernos com foco em usabilidade e acessibilidade. 
+                    <strong>PHP:</strong> Desenvolvimento de aplicações web dinâmicas e interativas, com integração a bancos de dados e <strong>APIs</strong>. 
+                    <strong>MySQL:</strong> Conhecimento no gerenciamento e manipulação de dados, criação de consultas otimizadas e integração com sistemas back-end. 
+                    <strong>JavaScript:</strong> Desenvolvimento de funcionalidades interativas e dinâmicas para páginas web, usando frameworks e bibliotecas como <strong>Node.js</strong> e <strong>React</strong>. 
+                    <strong>HTML:</strong> Criação de estruturas de páginas web, seguindo boas práticas para garantir a acessibilidade e a compatibilidade entre navegadores.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projetos" style="background-color:#384A5F">
+        <h2 class="section-title" style="font-size: 12pt;">PROJETOS</h2>
+        
+        <div class="scroll-container">
+        
+            <div class="scroll-item">
+                <img src="assets/images/git.png" alt="Git">
+                <h1>CadPy</h1>
+                <a href="https://www.youtube.com/watch?v=2Xlf9iPa91k" title="Click aqui para ver o video" target="_blank">Este projeto é um sistema de cadastro de usuários feito em Python com SQLite. Ele permite a criação, visualização, atualização e remoção de usuários com persistência de dados.</a><br>
+            </div>
+            
+            <div class="scroll-item">
+                <img src="assets/images/git.png" alt="Git">
+                <h1>Calculadora</h1>
+                <a href="https://www.youtube.com/watch?v=G4sBdkiDKRQ&t=9s" title="Click aqui para ver o video" target="_blank">Este é um aplicativo simples de cálculo de IMC (Índice de Massa Corporal) criado com Python e PyQt5. Ele calcula o IMC e mostra uma seta indicativa com base na faixa de peso.</a><br>
+            </div>
+            
+            <div class="scroll-item">
+                <img src="assets/images/git.png" alt="Git">
+                <h1>Piottin</h1>
+                <a href="https://www.youtube.com/watch?v=M8bg8cCOwrE&t=1s" title="Click aqui para ver o video" target="_blank">Este projeto monitora o preço do Bitcoin utilizando a API CoinGecko e envia alertas por e-mail quando o preço cai abaixo de um limite definido pelo usuário.</a><br>
+            </div>
+            
+            <div class="scroll-item">
+                <img src="assets/images/git.png" alt="Git">
+                <h1>QrPy</h1>
+                <a href="https://www.youtube.com/watch?v=2Xlf9iPa91k" title="Click aqui para ver o video" target="_blank">Este é um aplicativo em Python que gera um código QR a partir de um endereço web inserido no campo pelo usuário. Para interface gráfica foi utilizado o PyQt5.</a>
+            </div>
+            
+            <div class="scroll-item">
+                <img src="assets/images/git.png" alt="Git">
+                <h1>PyGenius</h1>
+                <a  href="https://www.youtube.com/watch?v=G4sBdkiDKRQ&t=9s" title="Click aqui para ver o video" target="_blank">Este é um jogo desenvolvido em Python com QtDesigner, inspirado no clássico jogo Genius dos anos 80. O objetivo é memorizar e repetir a sequência de cores.</a>
+            </div>
+        </div>
+    
+        <center>
+            <div>
+                <marquee behavior="scroll" direction="left" scrollamount="5" height="100px"><img src="/assets/images/mao.png" alt="Mao" width="20px" height="20px"> Clique no texto para assistir o vídeo do projeto</marquee>
+               
+            </div>
+        </center> 
+     </section>
+
+    <!-- Seção Serviços -->
+    <section id="servicos" style="background-color: #384A5F;">
+          <div class="scroll-container">
+            
+            <div class="scroll-item">
+               
+                <h1>Automações</h1>
+               <p> Precisa automatizar uma tarefa ou processo
+                em sua empresa,"ganhar tempo e produtividade" 
+                então posso lhe ajudar</p>
+                
+                <center><img src="assets/images/automacao.jpg" width="200px" height="200px" alt="Automacao"></center>
+                <center><a href="https://wa.me/5548984320047?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento." target="_blank">
+                    <button class="button">ORÇAMENTO
+                    </button></a> </center> 
+            </div>
+            <div class="scroll-item">
+                 
+                <h1>Web Sites</h1>
+                     <p> Desenvolvimento de sites para sua empresa ou pessoal,
+                      utilizando as tecnologias mais atuais com responsividade.</p>
+                
+                        <center><img src="assets/images/site.png" width="200px" height="200px" alt="Site"></center>
+                        <center><a href="https://wa.me/5548984320047?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento." target="_blank">
+                        <button class="button">ORÇAMENTO
+                        </button></a> </center>    
+                                        </div>
+       
+            <div class="scroll-item">
+                  
+                <h1>Web Aulas</h1>
+                        <p> Necessita de uma aula de programação particular ou 
+                         simplesmente quer aprender, então temos a solução:</p>
+                       
+                        <center><img src="assets/images/aulaprograma.png" width="200px" height="200px" alt="Aulaprograma"></center>
+                        <center><a href="https://wa.me/5548984320047?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento." target="_blank">
+                            <button class="button">ORÇAMENTO
+                            </button></a> </center> 
+            </div>
+          
+            
+        </div>
+         </section>
+
+    <!-- Rodapé -->
+    <footer>
+        
+        <div class="social">
+            &copy; 2024 Paulo Castanha. Todos os direitos reservados.
+            <a href="https://github.com/paulocastanha33" target="_blank"><img src="assets/images/git.png" width="40" height="40" alt="GitHub"></a>
+            <a href="https://www.linkedin.com/in/paulo-andre-castanha/" target="_blank"><img src="assets/images/linkedin.png" width="40" height="40" alt="LinkedIn"></a>
+            <a href="https://www.youtube.com/@pauloandrevalecastanha383" target="_blank"><img src="assets/images/youtube.png" width="40" height="40" alt="YouTube"></a>
+            <a href="https://wa.me/5548984320047" target="_blank"><img src="assets/images/whatss.png" width="40" height="40" alt="WhatsApp"></a>
+            <a href="mailto:paulo.castanha.dev@gmail.com" target="_blank"><img src="assets/images/mail.png" width="40" height="40" alt="E-mail"></a>
+        </div>
+    </footer>
+</body>
+</html>
